@@ -27,7 +27,7 @@ BCBench/
 ├── analysis/         Analysis scripts (EER, per-pair direction, ablations, statistical tests)
 ├── paper/            Paper draft
 ├── LICENSE
-└── CITATION.cff
+
 ```
 
 ## Reproducing the Experiment
