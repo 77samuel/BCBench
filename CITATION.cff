@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use BCBench, please cite this work."
+title: "BCBench: A Controlled Protocol for Evaluating Cross-Claim Belief Contamination in Large Language Models"
+authors:
+  - family-names: "Stephen"
+    given-names: "Samuel"
+    affiliation: "Karunya Institute of Technology and Sciences"
+    orcid: "https://orcid.org/0009-0002-9446-000X"
+  - family-names: "Vignesh"
+    given-names: "R."
+    affiliation: "Karunya Institute of Technology and Sciences"
+    orcid: "https://orcid.org/0009-0008-0134-8726"
+version: "1.0.0"
+date-released: "2026-06-21"
+repository-code: "https://github.com/77samuel/BCBench"
+license: MIT
+keywords:
+  - large language models
+  - belief contamination
+  - hallucination evaluation
+  - manipulation check
+  - benchmark construction
+  - LLM evaluation protocol
+abstract: >
+  BCBench is a controlled four-group experimental protocol and 40-pair benchmark
+  dataset for evaluating cross-claim belief contamination in large language models:
+  whether accepting a false belief about one claim alters epistemic behavior toward
+  a second, structurally unrelated claim. The repository includes the frozen
+  protocol specification, dataset, judge implementation and validation pipeline
+  (including independent blind adjudication artifacts), full experimental results,
+  and analysis code.
